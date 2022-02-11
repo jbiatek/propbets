@@ -10,6 +10,8 @@ Each question is based on a real $100 bet, and the scores are calculated accordi
 
 ## Running the game
 
+The page can be found here: https://jbiatek.github.io/propbets/
+
 The simplest thing to do is have everyone fill out the form for themselves, then compare answers and scores afterward. I will update the page with the answers after the game, and then it *should* update after refreshing the page, and scores will be visible on the dashboard. 
 
 If you want to get fancier, have people fill out the form themselves and ask them to send you their answers. Once the form is finished, they'll see the code for their answers at the end (this is really a very simple JSON file). If you collect all those answers, you can copy-paste the JSON into each entry (use the edit button in the top right to paste the JSON), then you'll have everyone's entries in one place. Once the answers are in, the Dashboard will have a leaderboard of all the entries. You can also fill the answers in on your own, there's a link to the Answers key on the wiki. If you fill out the answers yourself live, the Dashboard will update live too. Note that if you fill out the answers, it'll override my update with answers unless you delete the Answers entry entirely and then reload.
