@@ -12,8 +12,10 @@ Each question is based on a real $100 bet, and the scores are calculated accordi
 
 The page can be found here: https://jbiatek.github.io/propbets/
 
-The simplest thing to do is have everyone fill out the form for themselves, then compare answers and scores afterward. I will update the page with the answers after the game, and then it *should* update after refreshing the page, and scores will be visible on the dashboard. 
+Fill out the forms as directed, and data will be stored in your browser's local storage. If you need TiddlyWiki's full controls, there is a checkbox on the home page for turning off "simple" mode.
 
-If you want to get fancier, have people fill out the form themselves and ask them to send you their answers. Once the form is finished, they'll see the code for their answers at the end (this is really a very simple JSON file). If you collect all those answers, you can copy-paste the JSON into each entry (use the edit button in the top right to paste the JSON), then you'll have everyone's entries in one place. Once the answers are in, the Dashboard will have a leaderboard of all the entries. You can also fill the answers in on your own, there's a link to the Answers key on the wiki. If you fill out the answers yourself live, the Dashboard will update live too. Note that if you fill out the answers, it'll override my update with answers unless you delete the Answers entry entirely and then reload.
+For in-person play, it should be sufficient to have everyone fill in their entry on whatever computer is going to display the results for everyone. You can also have people fill out the form and send you their JSON, which can be found at the end of the entry form. Create a corresponding entry on your end, edit the entry, and paste their JSON to fill in the answers.
 
-If you really really want to go all out, run a Node.js TiddlyWiki server and import the tidddlers from this file to create a live clone. You'll probably want to disable or delete the Browser Storage plugin, since that can only cause confusion with an actual server. 
+The Dashboard will have a leaderboard of all the entries, and you can grade them with the answer editor linked to on the home page.
+
+If you really really want to go all out, run a Node.js TiddlyWiki server and pull the two plugins out of this page and into your wiki. The "Offline Mode" and "Entry Form" pages are your starting point, and should probably be set as your default tiddlers.
